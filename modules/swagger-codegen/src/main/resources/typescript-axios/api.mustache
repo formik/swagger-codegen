@@ -47,7 +47,7 @@ export class {{classname}}Resource {
 {{/hasFormParams}}
 
         };
-        return axios.request(reqConfig)
+        return axios.request(reqConfig as AxiosRequestConfig)
             .then(res => {
                 return res.data;
             });
