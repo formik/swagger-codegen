@@ -9,8 +9,7 @@ import { stringify } from 'qs';
 import { {{classname}} } from '../{{filename}}';
 {{/imports}}
 
-/* tslint:disable:no-unused-variable member-ordering max-line-length */
-/* eslint-disable no-useless-concat */
+/* eslint-disable no-useless-concat @typescript-eslint/consistent-type-assertions */
 
 {{#operations}}
 {{#description}}
@@ -36,7 +35,7 @@ export class {{classname}}Resource {
 {{/formParams}}
         };
 {{/hasFormParams}}
-        let reqConfig = {
+        let reqConfig: AxiosRequestConfig = {
             ...axiosConfig,
             method: '{{httpMethod}}',
             url: reqPath{{#hasQueryParams}},
@@ -47,7 +46,7 @@ export class {{classname}}Resource {
 {{/hasFormParams}}
 
         };
-        return axios.request(reqConfig as AxiosRequestConfig)
+        return axios.request(reqConfig)
             .then(res => {
                 return res.data;
             });
