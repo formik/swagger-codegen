@@ -57,7 +57,7 @@
   </build>
   <properties>
     <swagger-annotations-version>1.5.8</swagger-annotations-version>
-    <httpcomponents-httpcore-version>4.4.4</httpcomponents-httpcore-version>
+    <httpcomponents-httpcore-version>4.4.13</httpcomponents-httpcore-version>
     <httpcomponents-httpmime-version>4.5.2</httpcomponents-httpmime-version>
     <httpcomponents-httpclient-version>4.3.3</httpcomponents-httpclient-version>
     <google-code-gson-version>2.6.2</google-code-gson-version>
