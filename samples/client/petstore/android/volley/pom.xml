@@ -56,7 +56,7 @@
     </plugins>
   </build>
   <properties>
-    <swagger-annotations-version>1.5.8</swagger-annotations-version>
+    <swagger-annotations-version>1.6.1</swagger-annotations-version>
     <httpcomponents-httpcore-version>4.4.4</httpcomponents-httpcore-version>
     <httpcomponents-httpmime-version>4.5.2</httpcomponents-httpmime-version>
     <httpcomponents-httpclient-version>4.3.3</httpcomponents-httpclient-version>
